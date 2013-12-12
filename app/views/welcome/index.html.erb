@@ -15,6 +15,7 @@
   <% if current_user && current_user.has_token %>
     <div class="well" id="connection">
       You are connected to Beeminder as <%= current_user.username %>. Huzzah!
+      <%= link_to "Log out", destroy_session_path(:user), :method => :delete %>
     </div>
     <% if current_user.goals.present? %>
       <div class="well" id="goals">
