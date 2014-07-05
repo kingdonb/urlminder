@@ -1,3 +1,7 @@
+#ENV["beeminder_client_id"] = 'bjosse1jwh8ctzdiscl6qcbrestw1ir'
+#ENV["beeminder_client_secret"] = 'dw9mirl91351xnpm7cds53odiohve0k'
+ENV["SECRET_TOKEN"] = '9u7bxq1t87lubvcixbqwn2u6b0p8luf'
+
 PublicUrlIntegration::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
